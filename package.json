@@ -1,0 +1,21 @@
+{
+  "name": "gestures",
+  "version": "1.1.0",
+  "description": "explorando gestures",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devscola/MOOC-Gestures.git"
+  },
+  "keywords": [
+    "ecosystem:phonegap",
+    "ecosystem:cordova",
+    "cordova:template",
+    "phonegap:template"
+  ],
+  "author": "Devscola",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://devscola.org"
+  },
+  "homepage": "https://devscola.org"
+}
