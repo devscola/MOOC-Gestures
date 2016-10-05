@@ -10,7 +10,6 @@ body.oscuro{
   background-color: #577a76;
 }
 
-
 button{
   background-color: #7fba67;
   color: #ffffff;
@@ -19,4 +18,19 @@ button{
   padding: 30px;
   font-size: 1em;
   margin-top: 10px;
+}
+
+#zona-gestos{
+  width:100%;
+  background-color: #7fba67;
+  margin-top: 10px;
+  min-height: 300px;
+  display: block;
+}
+
+#info{
+  color: #ffffff;
+  font-size: 2em;
+  margin-top: 10px;
+  text-transform: uppercase;
 }
