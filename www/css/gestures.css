@@ -43,6 +43,17 @@ button{
     -webkit-animation: presion 1.5s 1;
 }
 
+#zona-gestos.swipe-derecha{
+    -webkit-animation: swipe-derecha 3s 1;
+}
+
+#zona-gestos.swipe-izquierda{
+    -webkit-animation: swipe-izquierda 3s 1;
+}
+
+#zona-gestos.rotate{
+    -webkit-animation: rotate 3s 1;
+}
 
 @-webkit-keyframes pulsacion {
   0%, 100% {
@@ -60,4 +71,29 @@ button{
   50% {
     background-color: #577a76;
   }
+}
+
+
+@-webkit-keyframes swipe-derecha {
+  0%, 100% {
+    margin-left: 0%;
+  }
+  50% {
+    margin-left: 100%;
+  }
+}
+
+@-webkit-keyframes swipe-izquierda {
+  0%, 100% {
+    width: 100%;
+  }
+  50% {
+    width: 0%;
+  }
+}
+
+@-webkit-keyframes rotate { 
+  100% { 
+    -webkit-transform: rotate(360deg);
+  } 
 }
